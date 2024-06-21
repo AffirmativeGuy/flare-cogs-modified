@@ -16,7 +16,7 @@
 
 
 # Installation of this modified version.
-`[p]repo add modified-cashdrop [https://github.com/flaree/Flare-Cogs](https://github.com/AffirmativeGuy/flare-cogs-modified)`
+`[p]repo add modified-cashdrop https://github.com/AffirmativeGuy/flare-cogs-modified master`
 
 `[p]cog install modified-cashdrop cashdrop`
 
