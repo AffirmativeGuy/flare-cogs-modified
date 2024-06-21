@@ -96,7 +96,7 @@ class Cashdrop(commands.Cog):
                     "message", check=pred, timeout=10
                 )
             except asyncio.TimeoutError:
-                await msg.edit(content="Too slow!")
+                await msg.delete()
                 return
             if not pred.result:
                 creds = random.randint(
@@ -117,7 +117,7 @@ class Cashdrop(commands.Cog):
                     "message", check=pred, timeout=10
                 )
             except asyncio.TimeoutError:
-                await message.delete()
+                await msg.delete()
                 return
 
             if not pred.result:
