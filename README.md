@@ -1,6 +1,6 @@
 # Flare-Cogs - (flare#0001)
 # Modified cashdrop
-# Honestly, what are you doing here? use flare's repo for his cog. This repo was just made to modify cashdrop's too slow message. And nothing else.
+# Honestly, what are you doing here? use flare's repo for his cog. This repo was just made to delete cashdrop's too slow message. And nothing else.
 <p align="center">
   <a href="https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop">
     <img src="https://img.shields.io/badge/Red%20DiscordBot-V3-red.svg">
