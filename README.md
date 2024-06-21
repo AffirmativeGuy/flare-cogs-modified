@@ -14,18 +14,11 @@
 
 </p>
 
-# Contact
-You can contact me(refers to flare) in the Red 3rd party server in #support_flare-cogs
 
-<br>
+# Installation of this modified version.
+`[p]repo add modified-cashdrop [https://github.com/flaree/Flare-Cogs](https://github.com/AffirmativeGuy/flare-cogs-modified)`
 
----
-
-
-# Installation
-`[p]repo add flare-cogs https://github.com/flaree/Flare-Cogs`
-
-`[p]cog install flare-cogs <cog_name>`
+`[p]cog install modified-cashdrop cashdrop`
 
 ---
 | Name           | Status/Version   | Description (Click to see full status)                                                                                                                                                            | Authors                                  |
