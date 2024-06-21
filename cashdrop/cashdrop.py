@@ -117,7 +117,7 @@ class Cashdrop(commands.Cog):
                     "message", check=pred, timeout=10
                 )
             except asyncio.TimeoutError:
-                await msg.edit(content="Too slow!")
+                await message.delete()
                 return
 
             if not pred.result:
