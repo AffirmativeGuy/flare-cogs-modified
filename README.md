@@ -34,14 +34,3 @@ You can contact me(refers to flare) in the Red 3rd party server in #support_flar
 ---
 
 
-
----
-## Cogs in other repos of flare
----
-| Name | Description
-| --- | --- |
-| Pokecord | Pokecord - found @ [flaree/pokecord-red](https://github.com/flaree/pokecord-red) |
-| LastFM | LastFM stats - port of Miso Bot - found @ [flaree/lastfm-red](https://github.com/flaree/lastfm-red) |
-
-
----
