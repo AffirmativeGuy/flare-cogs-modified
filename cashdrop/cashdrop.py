@@ -93,7 +93,7 @@ class Cashdrop(commands.Cog):
             try:
                 pred = MessagePredicate.equal_to(str(answer), channel=channel, user=None)
                 answer_msg: discord.Message = await self.bot.wait_for(
-                    "message", check=pred, timeout=10
+                    "message", check=pred, timeout=30
                 )
             except asyncio.TimeoutError:
                 await msg.delete()
@@ -114,7 +114,7 @@ class Cashdrop(commands.Cog):
             pred = MessagePredicate.equal_to("pickup", channel=channel, user=None)
             try:
                 pickup_msg: discord.Message = await self.bot.wait_for(
-                    "message", check=pred, timeout=10
+                    "message", check=pred, timeout=30
                 )
             except asyncio.TimeoutError:
                 await msg.delete()
