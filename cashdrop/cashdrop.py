@@ -104,7 +104,10 @@ class Cashdrop(commands.Cog):
                     self.cache[message.guild.id]["credits_max"],
                 )
                 await msg.edit(
-                    content=f"Correct! {answer_msg.author.mention} got {creds} {await bank.get_currency_name(guild=message.guild)}!"
+                    content=f"Correct! {answer_msg.author.mention} got {creds} {await bank.get_currency_name(guild=message.guild)}!",
+                    await asyncio.sleep(10),
+                    await msg.delete(),
+                    await msg.delete(answer_msg.author)
                 )
                 await bank.deposit_credits(answer_msg.author, creds)
         else:
