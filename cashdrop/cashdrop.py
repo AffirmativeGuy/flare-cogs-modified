@@ -108,7 +108,7 @@ class Cashdrop(commands.Cog):
                 )
                 await bank.deposit_credits(answer_msg.author, creds)
                 await asyncio.sleep(10),
-                await msg.delete(answer_msg.author, content)
+                await msg.delete(answer_msg.author)
         else:
             msg = await channel.send(
                 f"Some {await bank.get_currency_name(guild=message.guild)} have fallen, type `pickup` to pick them up!"
